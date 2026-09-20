@@ -8,38 +8,6 @@
     transition: all 0.3s ease;
 }
 
-/* --- CONFIGURACIÓN MODO OSCURO (Colores y Sombras) --- */
-.dark-theme {
-    background-color: #0b1329;
-    color: #cbd5e1;
-    --bg-card: rgba(17, 28, 68, 0.6);
-    --border-color: rgba(30, 41, 59, 0.8);
-    --text-title: #ffffff;
-    --bg-badge: #16224f;
-    --border-badge: rgba(51, 65, 85, 0.5);
-    --bg-input: rgba(14, 23, 56, 0.8);
-    --opacity-glow: 0.4;
-    --mix-blend: screen;
-    --hover-border: #475569;
-    --hover-shadow: rgba(0, 0, 0, 0.5);
-}
-
-/* --- CONFIGURACIÓN MODO CLARO (Colores y Sombras) --- */
-.light-theme {
-    background-color: #f8fafc;
-    color: #475569;
-    --bg-card: rgba(255, 255, 255, 0.85);
-    --border-color: rgba(226, 232, 240, 0.8);
-    --text-title: #0f172a;
-    --bg-badge: rgba(241, 245, 249, 0.8);
-    --border-badge: rgba(203, 213, 225, 0.8);
-    --bg-input: #ffffff;
-    --opacity-glow: 0.12;
-    --mix-blend: multiply;
-    --hover-border: rgba(34, 211, 238, 0.6);
-    --hover-shadow: rgba(148, 163, 184, 0.2);
-}
-
 /* Reset Base Standard */
 * {
     margin: 0;
@@ -70,8 +38,8 @@ body {
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
     /* Curva de animación idéntica a proyectos destacados */
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 0.3s ease;
 }
@@ -172,7 +140,7 @@ body {
     gap: 0.75rem;
     font-size: 0.75rem;
     margin-top: 0.75rem;
-    color: #64748b;
+    color: #0051c4;
 }
 
 .contact-links a {
@@ -219,7 +187,7 @@ body {
 .badge {
     display: inline-block;
     background-color: var(--bg-badge);
-    color: #cbd5e1;
+    color: #000000;
     font-size: 0.75rem;
     padding: 0.25rem 0.75rem;
     border-radius: 0.5rem;
@@ -247,7 +215,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #94a3b8;
+    color: #3f4752;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -307,3 +275,10 @@ body {
     .form-grid { grid-template-columns: 1fr 1fr; }
 }
 
+header h1 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 20px;
+}
